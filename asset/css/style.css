@@ -1,0 +1,313 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.clear {
+    clear: both;
+}
+/* Begin header css */
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color : white;
+    width: 1329px;
+    height: 100px;
+}
+#header i {
+    padding:4px 10.5px;
+    background-color: #002146;
+    border-radius: 50%;
+    
+}
+#header svg {
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    color: yellowgreen;
+}
+
+#header .logo {
+    margin-left: 30px;
+}
+#header .logo-text {
+    font-size: 30px;
+    font-weight:700;
+    color: #002146;
+    line-height: 65px;
+}
+#header a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding:5px;
+    font-weight:580;
+}
+/* Begin slider css */
+
+#slider {
+    max-height: 800px;
+    padding-top:43%;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* begin welcome css */
+
+#content .welcome-container {
+    width: 1329px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    color:#002146;
+}
+#content .welcome_text {
+    float:left;
+    margin-left:30px;
+    width: 40%;
+    text-align: left;
+}
+.welcome_text p {
+    margin-top: 30px;
+}
+button {
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fdc800;
+    border:none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#content .welcome_img img {
+    float: right;
+    margin-right: 30px;
+    width: 40%;
+}
+/* Begin About css */
+#content .about-container {
+    margin-top: 30px;
+    background-color: #f6f6f6;
+    height:150px;
+}
+#content .about-lists {
+    width: 1329px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#content .about-item {
+    position: relative;
+    padding-left: 20px;
+    float: left;
+    width:25%;
+}
+#content .about-number {
+    float: left;
+    height: 150px;
+    width: 30%;
+
+}
+#content .about-number p {
+    font-size: 40px;
+    line-height:150px;
+    text-align: right;
+    font-weight: 700;
+}
+#content .about-text p {
+    position: absolute;
+    left: 122px;
+    top: 38.5%;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+    width: 70%;
+    text-transform: uppercase;
+}
+/* Begin product css  */
+#content .products-container {
+    margin-top: 30px;
+    width: 1329px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#content .product-item {
+    position: relative;
+    background:#002146;
+    margin-bottom: 36px;
+    margin-left: 18px;
+    margin-right: 18px;
+    float: left;
+    text-align: center;
+    width: calc(25% - 36px);
+    height: 170px;
+    border-radius: 3%;
+}
+#content .product-item i {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    display: block;
+    width: 100%;
+    top: calc(50% - 46px);
+}
+#content .product-item p {
+    display: block;
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    bottom: calc(50% - 38px);
+}
+/* Begin blogs css */
+#content .blogs {
+    background-color: #f6f6f6;
+
+}
+#content .blog-container {
+    width: 1329px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+#content .blog-latest {
+    float: left;
+    width: 45%;
+}
+#content .latest-lists {
+    background-color: #fff;
+    margin-top: 20px;
+}
+#content .latest-item {
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.latest-lists img {
+    border-radius: 4px;
+    width: 23%;
+    float: left;
+    margin-left: 20px;
+}
+.latest-lists .latest-text {
+    float: left;
+    margin-left: 20px;
+    width: 60%;
+}
+.latest-text p {
+    margin-top: 10px;
+}
+.latest-text .latest-time {
+    font-weight: 500;
+    opacity: 0.7;
+}
+#content .blog-upcoming {
+    float: right;
+    width:50%;
+}
+#content .upcoming-item {
+    background-color: #fff;
+    margin-top: 20px;
+}
+.blog-upcoming .upcoming-calendar {
+    text-align: center;
+    float: left;
+    width: 16%;
+    margin: 20px;
+}
+.blog-upcoming .upcoming-date {
+    background-color: yellowgreen;
+}
+
+.upcoming-date .date {
+    padding-top: 10px;
+    line-height:52px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.upcoming-date .month {
+    line-height: 26px;
+}
+.blog-upcoming .upcoming-year {
+    background-color: #002146;
+    color: white;
+    line-height:30px;
+
+}
+.blog-upcoming .upcoming-about {
+    margin: 20px;
+    margin-left: 0px;
+    float: left;
+    width:60%;
+}
+.upcoming-about p {
+    margin-top: 10px;
+}
+.upcoming-about .upcoming-time {
+    color: #002146;
+    font-weight: 650;
+}
+.upcoming-about .upcoming-place {
+    color: #002146;
+
+}
+
+#footer {
+    background-color: #002146;
+    color: rgba(255, 255, 255, 0.8);
+}
+#footer .footer-container {
+    position: relative;
+    width: 1329px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#footer .contact, 
+#footer .featured,
+#footer .quick-link{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.333%;
+}
+#footer ul {
+    list-style-type: none;
+    padding-top: 20px;
+}
+#footer ul li {
+    margin-top: 10px;
+    color:rgba(255, 255,255,0.7);
+    font-size: 15px;
+}
+#footer a {
+    text-decoration: none;
+    color:#ccc;
+}
+#footer a:hover {
+    color: #fff;
+}
+#footer i {
+    color:yellowgreen;
+    padding-right: 10px;
+}
+.footer-container::after {
+    content: "";
+    position: absolute;
+    color: white;
+    border:0.8px solid rgba(255,255,255,0.1);
+    width: 100%;
+    bottom:0px;
+
+}
+
+#footer .footer-end {
+    width: 1329px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 0;
+}
